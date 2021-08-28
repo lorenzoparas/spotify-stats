@@ -16,6 +16,7 @@ function Home() {
 
     return (
         <div>
+            Spotify Stats
             <Button variant="contained" color="primary" onClick={handleLogin}>
                 LOGIN
             </Button>
