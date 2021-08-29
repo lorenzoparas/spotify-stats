@@ -12,10 +12,10 @@ const StyledButton = withStyles({
       border: '1px solid black',
       color: 'black',
       padding: '0 30px',
-      width: '22%',
+      width: '15%',
       height: '80px',
       fontSize: '23px',
-      margin: '50px',
+      margin: '50px'
     },
     label: {
       textTransform: 'capitalize',
@@ -37,11 +37,11 @@ function Welcome (accessToken) {
                 <Grid id='grid'>
                     <div id='minsNsongs'>
                         <StyledButton> Minutes Listened </StyledButton>
-                        <StyledButton>
-                            <Link to='top-songs' style={buttonTextStyle}>
+                        <Link to='top-songs' style={buttonTextStyle}>
+                            <StyledButton>
                                 Top Songs
-                            </Link>
-                        </StyledButton>
+                            </StyledButton>
+                        </Link>
                     </div>
                     <div id='artistsNalbums'>
                         <StyledButton> Top Artists </StyledButton>

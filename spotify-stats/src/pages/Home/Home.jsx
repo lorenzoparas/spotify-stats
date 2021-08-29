@@ -44,11 +44,11 @@ function Home() {
                 Just login with your Spotify account to get started.
             </div>
             <div id="loginButton">
-                <StyledButton>
-                    <a href={fetchUrl} style={loginButtonStyle}>
+                <a href={fetchUrl} style={loginButtonStyle}>
+                    <StyledButton>
                         LOGIN
-                    </a>
-                </StyledButton>
+                    </StyledButton>
+                </a>
             </div>
         </div>
     );
