@@ -21,11 +21,11 @@ const StyledButton = withStyles({
     },
   })(Button);
 
-function Welcome () {
+function Welcome (accessToken) {
     return (
         <div id='welcome-container'>
             <div id='welcome-message'>
-                <p id="hello">Hello, <span id="name">Ives. </span></p>
+                <p id="hello">Hello, <span id="name">Ives.</span></p>
             </div>
             <div>
                 <Grid id='grid'>

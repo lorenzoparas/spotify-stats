@@ -1,27 +1,24 @@
 import React from 'react';
 import "./Body.css"
 import Home from "./../Home/Home"
-import Welcome from "./../WelcomeStats/Welcome"
+import Welcome from "../Welcome/Welcome"
 
 import {
-    BrowserRouter,
     Route,
     Switch,
 } from 'react-router-dom';
 
-function Body () {
+function Body (accessToken) {
     return (
         <div id='body-container'>
-            <BrowserRouter>
-                <Switch>
-                    <Route exact path='/'>
-                        <Home/>
-                    </Route>
-                    <Route path='/welcome'>
-                        <Welcome/>
-                    </Route>
-                </Switch>
-            </BrowserRouter>
+            <Switch>
+                <Route exact path='/'>
+                    <Home/>
+                </Route>
+                <Route path='/welcome'>
+                    <Welcome accessToken={accessToken.accessToken}/>
+                </Route>
+            </Switch>
         </div>
     );
 }
