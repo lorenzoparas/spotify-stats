@@ -3,6 +3,7 @@ import React from 'react';
 import "./Welcome.css"
 import Button from '@material-ui/core/Button';
 import { withStyles } from '@material-ui/core/styles';
+import { Link } from 'react-router-dom';
 
 const StyledButton = withStyles({
     root: {
@@ -21,6 +22,11 @@ const StyledButton = withStyles({
     },
   })(Button);
 
+const buttonTextStyle = {
+    textDecoration: 'none',
+    color: 'black'
+}
+
 function Welcome (accessToken) {
     return (
         <div id='welcome-container'>
@@ -31,7 +37,11 @@ function Welcome (accessToken) {
                 <Grid id='grid'>
                     <div id='minsNsongs'>
                         <StyledButton> Minutes Listened </StyledButton>
-                        <StyledButton> Top Songs </StyledButton>
+                        <StyledButton>
+                            <Link to='top-songs' style={buttonTextStyle}>
+                                Top Songs
+                            </Link>
+                        </StyledButton>
                     </div>
                     <div id='artistsNalbums'>
                         <StyledButton> Top Artists </StyledButton>
