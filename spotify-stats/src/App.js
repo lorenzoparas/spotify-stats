@@ -7,6 +7,12 @@ import {
 import "./App.css";
 import Home from './pages/Home';
 import Dashboard from './pages/Dashboard';
+import TopSongs from './pages/TopSongs';
+
+const bodyStyle = {
+	marginTop: '10vh',
+	marginBottom: '10vh'
+}
 
 function App() {
 	let history = useHistory();
@@ -38,14 +44,19 @@ function App() {
   	return (
 		<div className="App">
 			<div className="App-header">
-				<Switch>
-					<Route exact path="/">
-						<Home/>
-					</Route>
-					<Route path="/dashboard">
-						<Dashboard accessToken={accessToken}/>
-					</Route>
-				</Switch>
+				<div style={bodyStyle}>
+					<Switch>
+						<Route exact path="/">
+							<Home/>
+						</Route>
+						<Route path="/dashboard">
+							<Dashboard accessToken={accessToken}/>
+						</Route>
+						<Route path='/top-songs'>
+							<TopSongs accessToken={accessToken}/>
+						</Route>
+					</Switch>
+				</div>
 			</div>
 		</div>
 	);
