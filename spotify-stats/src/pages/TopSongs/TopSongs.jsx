@@ -1,9 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import SongRow from '../components/SongRow';
-
-const tempStyle = {
-    width: '60vw'
-}
+import SongRow from '../../components/SongRow';
 
 function TopSongs(accessToken) {
     const [topSongs, setTopSongs] = useState();
@@ -25,7 +21,7 @@ function TopSongs(accessToken) {
     }, [topSongs])
 
     return (
-        <div style={tempStyle}>
+        <div>
             <h1 style={{color: "#62CD32"}}>Your Top Songs</h1>
             <div>
                 {   
