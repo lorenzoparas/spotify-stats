@@ -1,12 +1,9 @@
 import React, { useEffect, useState } from "react";
 import {
-	Switch,
-	Route,
 	useHistory
   } from "react-router-dom";
 import "./App.css";
-import Home from './pages/Home/Home';
-import Dashboard from './pages/Dashboard/Dashboard';
+import Body from './pages/Body/Body';
 
 function App() {
 	let history = useHistory();
@@ -24,7 +21,7 @@ function App() {
 	}, []);
 
 	useEffect(() => {
-		(hash) ? history.push('/dashboard') : history.push('/');
+		(hash) ? history.push('/welcome') : history.push('/');
 	}, [hash])
 
 	const setState = (newHash) => {
@@ -38,14 +35,7 @@ function App() {
   	return (
 		<div className="App">
 			<div className="App-header">
-				<Switch>
-					<Route exact path="/">
-						<Home/>
-					</Route>
-					<Route path="/dashboard">
-						<Dashboard accessToken={accessToken}/>
-					</Route>
-				</Switch>
+				<Body accessToken={accessToken}/>
 			</div>
 		</div>
 	);

@@ -31,7 +31,6 @@ const StyledButton = withStyles({
   })(Button);
 
 function Home() {
-
     return (
         <div id="main">
             <span className="title" id="spot1">
