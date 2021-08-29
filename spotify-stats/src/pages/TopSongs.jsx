@@ -8,6 +8,7 @@ const tempStyle = {
 function TopSongs(accessToken) {
     const [topSongs, setTopSongs] = useState();
 
+    // create API request for top tracks
     useEffect(() => {
         const results = fetch("https://api.spotify.com/v1/me/top/tracks", {
             headers: {
