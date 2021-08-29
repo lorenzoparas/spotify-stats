@@ -6,8 +6,7 @@ const redirectUri = 'http://localhost:3000';
 const fetchUrl = 'https://accounts.spotify.com/authorize' +
     '?client_id=' + encodeURIComponent(clientId) +
     '&response_type=token' +
-    '&redirect_uri=' + encodeURIComponent(redirectUri) +
-    '&scope=user-top-read'
+    '&redirect_uri=' + encodeURIComponent(redirectUri);
 
 const loginButtonStyle = {
     textDecoration: 'none', 
