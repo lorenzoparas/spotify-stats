@@ -4,12 +4,16 @@ import Button from '@material-ui/core/Button';
 import { withStyles } from '@material-ui/core/styles';
 
 const clientId = '33c58056810e472dbde6aa97618d59c9';
-const redirectUri = 'https%3A%2F%2Fexample.com%2F';
+const redirectUri = 'http://localhost:3000';
 const fetchUrl = 'https://accounts.spotify.com/authorize' +
-    '?client_id=' + clientId +
-    '&response_type=code' +
-    '&redirect_uri=' + redirectUri;
+    '?client_id=' + encodeURIComponent(clientId) +
+    '&response_type=token' +
+    '&redirect_uri=' + encodeURIComponent(redirectUri);
 
+const loginButtonStyle = {
+    textDecoration: 'none', 
+    color: 'white'
+}
     
 const StyledButton = withStyles({
     root: {
@@ -28,10 +32,6 @@ const StyledButton = withStyles({
 
 function Home() {
 
-    const handleLogin = () => {
-        fetch(fetchUrl);
-    };
-
     return (
         <div id="main">
             <span className="title" id="spot1">
@@ -44,9 +44,12 @@ function Home() {
                 Spotify Stats presents to you an easy way of monitoring and accessing your spotify activity. Find which songs, artists and albums you listen to the most and how your taste in music has evolved. 
                 Just login with your Spotify account to get started.
             </div>
-            
             <div id="loginButton">
-                <StyledButton onClick={handleLogin}> LOGIN </StyledButton>
+                <StyledButton>
+                    <a href={fetchUrl} style={loginButtonStyle}>
+                        LOGIN
+                    </a>
+                </StyledButton>
             </div>
         </div>
     );
