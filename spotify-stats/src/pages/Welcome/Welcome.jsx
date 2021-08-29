@@ -3,6 +3,7 @@ import React from 'react';
 import "./Welcome.css"
 import Button from '@material-ui/core/Button';
 import { withStyles } from '@material-ui/core/styles';
+import { Link } from 'react-router-dom';
 
 const StyledButton = withStyles({
     root: {
@@ -11,10 +12,10 @@ const StyledButton = withStyles({
       border: '1px solid black',
       color: 'black',
       padding: '0 30px',
-      width: '22%',
+      width: '15%',
       height: '80px',
       fontSize: '23px',
-      margin: '50px',
+      margin: '50px'
     },
     label: {
       textTransform: 'capitalize',
@@ -31,7 +32,11 @@ function Welcome (accessToken) {
                 <Grid id='grid'>
                     <div id='minsNsongs'>
                         <StyledButton> Minutes Listened </StyledButton>
-                        <StyledButton> Top Songs </StyledButton>
+                        <StyledButton>
+                            <Link to='top-songs' style={{textDecoration: 'none', color: 'black'}}>
+                                Top Songs
+                            </Link>
+                        </StyledButton>
                     </div>
                     <div id='artistsNalbums'>
                         <StyledButton> Top Artists </StyledButton>

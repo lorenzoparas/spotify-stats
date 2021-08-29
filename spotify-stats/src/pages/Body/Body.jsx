@@ -7,6 +7,7 @@ import {
     Route,
     Switch,
 } from 'react-router-dom';
+import TopSongs from '../TopSongs/TopSongs';
 
 function Body (accessToken) {
     return (
@@ -17,6 +18,9 @@ function Body (accessToken) {
                 </Route>
                 <Route path='/welcome'>
                     <Welcome accessToken={accessToken.accessToken}/>
+                </Route>
+                <Route path='/top-songs'>
+                    <TopSongs accessToken={accessToken.accessToken}/>
                 </Route>
             </Switch>
         </div>
