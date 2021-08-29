@@ -5,8 +5,8 @@ import {
 	useHistory
   } from "react-router-dom";
 import "./App.css";
-import Home from './pages/Home';
-import Dashboard from './pages/Dashboard';
+import Home from './pages/Home/Home';
+import Dashboard from './pages/Dashboard/Dashboard';
 
 function App() {
 	let history = useHistory();
