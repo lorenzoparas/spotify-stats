@@ -12,7 +12,7 @@ const StyledButton = withStyles({
       border: '1px solid black',
       color: 'black',
       padding: '0 30px',
-      width: '15%',
+      width: '30%',
       height: '80px',
       fontSize: '23px',
       margin: '50px'

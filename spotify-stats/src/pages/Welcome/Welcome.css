@@ -17,7 +17,7 @@
 }
 
 #grid {
-    width: 300%;
+    width: 100%;
     align-self: center;
-    margin-left: -100%;
+    margin-left: 0%;
 }
