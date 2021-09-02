@@ -27,7 +27,10 @@ const buttonTextStyle = {
     color: 'black'
 }
 
+
 function Welcome (accessToken) {
+    
+    console.log(accessToken)
     return (
         <div id='welcome-container'>
             <div id='welcome-message'>
@@ -44,7 +47,11 @@ function Welcome (accessToken) {
                         </Link>
                     </div>
                     <div id='artistsNalbums'>
-                        <StyledButton> Top Artists </StyledButton>
+                        <Link to='top-artists' style={buttonTextStyle}>
+                            <StyledButton> 
+                                Top Artists 
+                            </StyledButton>
+                        </Link>
                         <StyledButton> Top Albums </StyledButton>
                     </div>
                 </Grid>
