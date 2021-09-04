@@ -154,7 +154,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@ivesparas](https://twitter.com/ivesparas) - ivesparas@gmail.com
+Lorenzo Paras - [@ivesparas](https://twitter.com/ivesparas) - ivesparas@gmail.com
+
+Aryan Karwal - karwalaryan@gmail.com
 
 Project Link: [https://github.com/lorenzoparas/spotifyStats](https://github.com/lorenzoparas/spotifyStats)
 
