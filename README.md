@@ -82,9 +82,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`lorenzoparas`, `spotifyStats`, `ivesparas`, `ivesparas@gmail.com`, `spotifyStats`, `View your Spotify account's statistics!`
+Usually, finding out about your account's Spotify statistics would involve waiting until 
+the end of each year with Spotify Re-wrapped coming out. With this application, it is intended 
+to be able to find out your Spotify account's statistics at any time of the year.
 
 
 ### Built With
