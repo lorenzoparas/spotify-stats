@@ -1,6 +1,6 @@
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
+*** that would make this better, please fork the spotifyStats and create a pull request
 *** or simply open an issue with the tag "enhancement".
 *** Thanks again! Now go create something AMAZING! :D
 ***
@@ -43,7 +43,7 @@
     <br />
     <a href="https://github.com/lorenzoparas/spotifyStats">View Demo</a>
     ·
-    <a href="https://github.com/lorenzoparas/spotifyStats/issues">Report Bug</a>
+    <a href="https://github.com/lorenzoparas/spotifyStats/issues">spotifyStatsrt Bug</a>
     ·
     <a href="https://github.com/lorenzoparas/spotifyStats/issues">Request Feature</a>
   </p>
@@ -107,7 +107,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Clone the repo
+1. Clone the spotifyStats
    ```sh
    git clone https://github.com/lorenzoparas/spotifyStats.git
    ```
@@ -169,15 +169,15 @@ Project Link: [https://github.com/lorenzoparas/spotifyStats](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/lorenzoparas/repo.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/lorenzoparas/spotifyStats.svg?style=for-the-badge
 [contributors-url]: https://github.com/lorenzoparas/spotifyStats/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/lorenzoparas/repo.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/lorenzoparas/spotifyStats.svg?style=for-the-badge
 [forks-url]: https://github.com/lorenzoparas/spotifyStats/network/members
-[stars-shield]: https://img.shields.io/github/stars/lorenzoparas/repo.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/lorenzoparas/spotifyStats.svg?style=for-the-badge
 [stars-url]: https://github.com/lorenzoparas/spotifyStats/stargazers
-[issues-shield]: https://img.shields.io/github/issues/lorenzoparas/repo.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/lorenzoparas/spotifyStats.svg?style=for-the-badge
 [issues-url]: https://github.com/lorenzoparas/spotifyStats/issues
-[license-shield]: https://img.shields.io/github/license/lorenzoparas/repo.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/lorenzoparas/spotifyStats.svg?style=for-the-badge
 [license-url]: https://github.com/lorenzoparas/spotifyStats/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/lorenzoparas
