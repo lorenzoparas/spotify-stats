@@ -178,6 +178,6 @@ Project Link: [https://github.com/lorenzoparas/spotifyStats](https://github.com/
 [issues-shield]: https://img.shields.io/github/issues/lorenzoparas/spotifyStats.svg?style=for-the-badge
 [issues-url]: https://github.com/lorenzoparas/spotifyStats/issues
 [license-shield]: https://img.shields.io/github/license/lorenzoparas/spotifyStats.svg?style=for-the-badge
-[license-url]: https://github.com/lorenzoparas/spotifyStats/blob/master/LICENSE.txt
+[license-url]: https://github.com/lorenzoparas/spotifyStats/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/lorenzoparas
