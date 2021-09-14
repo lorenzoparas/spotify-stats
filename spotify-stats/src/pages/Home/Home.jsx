@@ -35,7 +35,7 @@ function Home() {
     return (
         <div id="main">
             <span className="title" id="spot1">
-                Spotify 
+                Spotifyy
             </span>
             <span className="title">
                 Stats
